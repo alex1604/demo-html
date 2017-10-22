@@ -1,0 +1,28 @@
+{
+  "name": "demo-html",
+  "homepage": "https://github.com/alex1604/demo-html",
+  "authors": [
+    "Alejandro <92.alejandrogarcia@gmail.com>"
+  ],
+  "description": "School project 1",
+  "main": "index.html",
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "school",
+    "project"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

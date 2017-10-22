@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+
+<html lang="en-UK">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alejandro's Website</title>
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto+Condensed|Swanky+and+Moo+Moo|Francois+One|Crimson+Text" rel="stylesheet">
+    <script src="https://use.fontawesome.com/3cdd4eeb18.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+  <header class="jumbotron" id="jumbo-about">
+
+    <div class="container-fluid">
+    <div class="row">
+    <nav class="navbar">
+      <a class="navbar-brand" href="index.html"><i class="fa fa-leaf fa-3x" aria-hidden="true"></i></a>
+      <a class="navbar-brand" id="lang" href="portfolio-se.html">Svenska</a>
+      <button class="navbar-toggle pull-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="glyphicon glyphicon-menu-hamburger" id="burger-menu"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggler"><!--dropdown-menu dropdown-menu-right-->
+        <ul class="navbar-nav pull-right mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.se">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+    </div>
+  </header>
+  <div class="container-fluid">
+  <div class="row" id="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+<!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" id="item1">
+      <img src="images/html1.png" style="opacity:0.8" alt="i0" class="img-responsive">
+    </div>
+
+    <div class="item">
+      <img src="images/js3.png" style="opacity:0.8" alt="i1" class="img-responsive">
+    </div>
+
+    <div class="item">
+      <img src="images/js4.png" style="opacity:0.8" alt="i3" class="img-responsive">
+    </div>
+  </div>
+
+<!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+  <div class="row" id="portfolio-buttons">
+    <div class="btn-group">
+      <a href="#gallery1"><button type="button" class="btn btn-primary">Exercises</button></a>
+      <a href="#projects"><button type="button" class="btn btn-info pull-right">Projects</button></a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12"><a href="#gallery1"><span class="glyphicon glyphicon-menu-down" id="down"></span></a></div>
+  </div>
+  </div>
+
+  <div class="row" id="extra-row-1">
+    <div class="col-xs-12 col-md-12" id="bread-portfolio">
+    <ol class="breadcrumb pull-right">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li class="active" id="right">Exercises</li>
+    </ol>
+    </div>
+    <div class="col-xs-12" id="gallery1">
+    <h3>Exercises' Gallery: HTML-CSS, JavaScript</h3>
+    </div>
+    <nav class="col-xs-12 col-md-12" id="pages">
+      <ul class="pagination">
+
+        <li class="page-item"><a class="page-link" href="#gallery1" id="pag1">1</a></li>
+        <li class="page-item"><a class="page-link" href="#gallery1" id="pag2">2</a></li>
+        <li class="page-item"><a class="page-link" href="#gallery1" id="pag3">3</a></li>
+        <li class="page-item"><a class="page-link" href="#gallery1" id="pag4">4</a></li>
+        <li class="page-item"><a class="page-link" href="#gallery1" id="pag5">5</a></li>
+
+      </ul>
+    </nav>
+    <div id="wrapper">
+    <div id="1">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="ovning_7_1.html" class="thumbnail">
+        <img src="images/html1.png" alt="Exercise 7.1">
+      <div class="caption">
+      <h3>HTML - exercise 1</h3>
+        <p>In this exercise, we were asked to create a website using every html element
+        we had seen at class. I chose to use my hometown as topic for this exercise.</p>
+      </div></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="ovning_7_2.html" class="thumbnail">
+        <img src="images/html2.png" alt="Exercise 7.2">
+      <div class="caption">
+      <h3>HTML - exercise 2</h3>
+        <p>In this exercise, we were asked to create a website that looks as similar as possible to the teacher's example using basic html elements.</p>
+      </div></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="ovning_7_3.html" class="thumbnail">
+        <img src="images/html3.png" alt="Exercise 7.3">
+      <div class="caption">
+      <h3>HTML - exercise 3</h3>
+        <p>In this exercise, we were asked to create a website that looks as similar as possible to the teacher's example using css color property and div elements.</p>
+      </div></a>
+    </div>
+  </div>
+  <div id="2" >
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="ovning_7_4.html" class="thumbnail">
+        <img src="images/html4.png" alt="Exercise 7.4">
+      <div class="caption">
+      <h3>HTML - exercise 4</h3>
+        <p>In this exercise, we were asked to create a website that looks as similar as possible to the teacher's example using the table element.</p>
+      </div></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="ovning_7_5.html" class="thumbnail">
+        <img src="images/html5.png" alt="Exercise 7.5">
+      <div class="caption">
+      <h3>HTML - exercise 5</h3>
+        <p>In this exercise, we were asked to create a website that looks as similar as possible to the teacher's example using the table element using divs and position properties.</p>
+      </div></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="ovning_7_6.html" class="thumbnail">
+        <img src="images/html6.png" alt="Exercise 7.6">
+      <div class="caption">
+      <h3>HTML - exercise 6</h3>
+        <p>In this exercise, we were asked to create a website that looks as similar as possible to exercise 4 but using div elements instead.</p>
+      </div></a>
+    </div>
+  </div>
+  <div id="3" >
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="ovning_7_10.html" class="thumbnail">
+        <img src="images/html10.png" alt="Exercise 7.10">
+      <div class="caption">
+      <h3>HTML - exercise 10</h3>
+        <p>In this exercise, we were asked to create a big black rectangular container where there are two overlapping rectangles that move down along with the scrolling.</p>
+      </div></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="https://repl.it/NBoS/0" target="_blank" class="thumbnail">
+        <img src="images/lab_1_a.png" alt="lab 1_a">
+      <div class="caption">
+      <h3>JS - exercise 1.a</h3>
+        <p>In this exercise, we were asked to write a function that returns the lowest number in an array.</p>
+      </div></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="https://repl.it/NBo3/0" target="_blank" class="thumbnail">
+        <img src="images/lab_1_b.png" alt="lab 1_b">
+      <div class="caption">
+      <h3>JS - exercise 1.b</h3>
+        <p>In this exercise, we were asked to functions that take an array with numbers as the parameter. One returns a new array with the same number multiplied by two. The other just modifies the valuesin the existing array.</p>
+      </div></a>
+    </div>
+  </div>
+  <div id="4" >
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="https://repl.it/NBpn/1" target="_blank" class="thumbnail">
+        <img src="images/lab_1_c.png" alt="lab 1_c">
+      <div class="caption">
+      <h3>JS - exercise 1.c</h3>
+        <p>In this exercise, we were asked to write a function that takes two sorted arrays and merges them into a new sorted array.</p>
+      </div></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="https://repl.it/NBqD" target="_blank" class="thumbnail">
+        <img src="images/lab_1_d.png" alt="lab 1_d">
+      <div class="caption">
+      <h3>JS - exercise 1.d</h3>
+        <p>In this exercise, we were asked to write a function that counts the number of vowels in a string written in English.</p>
+      </div></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="https://repl.it/NBqS" target="_blank" class="thumbnail">
+        <img src="images/lab_1_e.png" alt="lab 1_e">
+      <div class="caption">
+      <h3>JS - exercise 1.e</h3>
+        <p>In this exercise, we were asked to write a function that takes an array of numbers and returns a new array with all the odd numbers from the first array.</p>
+      </div></a>
+    </div>
+  </div>
+  <div id="5" >
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="https://repl.it/NBrW" target="_blank" class="thumbnail">
+        <img src="images/lab_2_a.png" alt="lab 2_a">
+      <div class="caption">
+      <h3>JS - exercise 2.a</h3>
+        <p>In this exercise, we were asked to create a variable which contains a list of "contact" objects and has 2 methods allowing the user to create a new contact and find an existing contact.</p>
+      </div></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="https://repl.it/NBrh" target="_blank" class="thumbnail">
+        <img src="images/lab_2_b.png" alt="lab 2_b">
+      <div class="caption">
+      <h3>JS - exercise 2.b</h3>
+        <p>In this exercise, we were asked to write a program able to create rectangle objects in a set of cartesian coordinates, and a set of functions that calculate if one is to the left or farther up of the other, as well as if they are overlapping each other .</p>
+      </div></a>
+    </div>
+  </div>
+</div>
+<nav class="col-xs-12 col-md-12" id="pages">
+  <ul class="pagination">
+
+    <li class="page-item"><a class="page-link" href="#gallery1" id="pag1_2">1</a></li>
+    <li class="page-item"><a class="page-link" href="#gallery1" id="pag2_2">2</a></li>
+    <li class="page-item"><a class="page-link" href="#gallery1" id="pag3_2">3</a></li>
+    <li class="page-item"><a class="page-link" href="#gallery1" id="pag4_2">4</a></li>
+    <li class="page-item"><a class="page-link" href="#gallery1" id="pag5_2">5</a></li>
+
+  </ul>
+</nav>
+</div>
+</div>
+  <div class="row" id="extra-row-2">
+    <div class="col-xs-12 col-md-12" id="bread-portfolio">
+    <ol class="breadcrumb pull-right">
+      <li><a href="index-se.html">Home</a></li>
+      <li><a href="portfolio-se.html">Portfolio</a></li>
+      <li class="active" id="right">Projects</li>
+    </ol>
+    </div>
+    <div class="col-xs-12">
+    <a name="projects"></a>
+    <h3>Project Gallery</h3><h2 style="color:red"> (NO PROJECTS YET, THIS IS A PROTOTYPE)</h2>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="ovning_7_1.html" class="thumbnail">
+        <img src="images/html1.png" alt="Exercise 7.1">
+      <div class="caption">
+      <h3>HTML - övning 1</h3>
+        <p>På den här övningen måste man göra en webbsida där man använder mest av grundläggande html elementer. Jag valde att
+        använda min hemstad som ämnet</p>
+      </div></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="ovning_7_2.html" class="thumbnail">
+        <img src="images/html2.png" alt="Exercise 7.2">
+      <div class="caption">
+      <h3>HTML - övning 2</h3>
+        <p>På den här övningen måste man göra en webbsida som såg ut så lika möjligt som lärarens exemplet.</p>
+      </div></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="ovning_7_3.html" class="thumbnail">
+        <img src="images/html3.png" alt="Exercise 7.3">
+      <div class="caption">
+      <h3>HTML - övning 3</h3>
+        <p>På den här övningen måste man göra en webbsida som såg ut så lika möjligt som lärarens exemplet genom att använda css <i>color properties</i> och div elementer.</p>
+      </div></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="ovning_7_4.html" class="thumbnail">
+        <img src="images/html4.png" alt="Exercise 7.4">
+      <div class="caption">
+      <h3>HTML - övning 4</h3>
+        <p>På den här övningen måste man göra en webbsida som såg ut så lika möjligt som lärarens exemplet genom att använda <i>table</i> elementer.</p>
+      </div></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="ovning_7_5.html" class="thumbnail">
+        <img src="images/html5.png" alt="Exercise 7.5">
+      <div class="caption">
+      <h3>HTML - övning 5</h3>
+        <p>På den här övningen måste man göra en webbsida som såg ut så lika möjligt som lärarens exemplet genom att använda div elementer och <i>position properties</i>.</p>
+      </div></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="ovning_7_6.html" class="thumbnail">
+        <img src="images/html6.png" alt="Exercise 7.6">
+      <div class="caption">
+      <h3>HTML - övning 6</h3>
+        <p>På den här övningen måste man göra en webbsida som såg ut så lika möjligt som övning 4 genom att använda div elementer och <i>position properties</i> istället.</p>
+      </div></a>
+    </div>
+
+  </div>
+  </div>
+
+<footer>
+  <div class="row" id="footer">
+    <div class="col-xs-12 col-md-6">
+      <h4>Contact information:</h4><br>
+      <p style="font-size:1.3em"> <a href="mailto:92.alejandrogarcia@gmail.com"><span class="fa fa-envelope fa-lg">
+      </span> &nbsp; &nbsp;92.alejandrogarcia@gmail.com</p></a>
+      <p style="font-size:1.3em"><a href="tel:0046762082237"><span class="fa fa-mobile fa-lg">
+      </span> &nbsp; &nbsp; &nbsp;(+46) 07 62 08 22 37</p></a>
+    </div>
+    <div class="col-xs-12 col-md-6">
+      <h4>Follow me:</h4><br>
+      <p style="font-size:1.3em"><a href="https://github.com/alex1604/"><span class="fa fa-github fa-lg">
+      </span> &nbsp; &nbsp; &nbsp;github repository</p></a>
+      <p style="font-size:1.3em"><a href="https://www.linkedin.com/in/alejandrogarciagranado/?locale=en_US"><span class="fa fa-linkedin fa-lg">
+      </span> &nbsp; &nbsp; &nbsp;linkedin profile</p></a>
+    </div>
+  </div>
+  <p style="text-align:center">Posted by: Alejandro García &#174;</p>
+</footer>
+
+  <script src="jquery/portfolio.js"></script>
+
+</body>
+</html>
