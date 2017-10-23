@@ -1,16 +1,5 @@
-<!-- 13 Gör en lista enligt exemplet nedan. Ändra den yttre listan till inline, så att elementen kommer efter varandra på en rad. Ta bort numreringen på båda listorna. Den inre listan ska ligga precis under "Redigera".
-När man hovrar med musen över "Redigera" ska elementet få kantlinjer.
-Extra utmaning: gör så att den inre listan bara visas när man hovrar med musen över "Redigera".
-Arkiv
-Redigera
-Ångra
-Gör om
-Klipp ut
-Kopiera
-Klistra in
-Visa
-Infoga
--->
+<!-- 14 Skapa ett schackbräde (8x8 rutor som alternerar svart/vitt)
+med bredd och höjd 200px, inklusive kantlinjer. Använd en tabell-->
 
 <!DOCTYPE html>
 
@@ -34,27 +23,3 @@ Infoga
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div id="lists">
-  <ul id="lista">
-
-    <a href="#"><li>Arkiv</li></a>
-    <a href="#" id="redigera"><li>Redigera
-
-      <ul id="sub-redig">
-
-        <li>Ångra</li>
-        <li>Gör om</li>
-        <li>Klipp ut</li>
-        <li>Kopiera</li>
-        <li>Klistra in</li>
-
-      </ul>
-
-    </a></li>
-    <a href="#"><li>Visa</li></a>
-    <a href="#"><li>Bifoga</li></a>
-
-  </ul>
-  </div>
-</body>
-</html>

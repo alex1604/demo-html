@@ -1,0 +1,14 @@
+table{
+  width:200px;
+  height:200px;
+}
+.chess{
+  border-collapse: collapse;
+  width:12.5%;
+}
+.white{
+  background-color:white;
+}
+.black{
+  background-color:black;
+}
