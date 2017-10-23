@@ -1,0 +1,31 @@
+body{
+  background-color:black;
+}
+#lista{
+  display:inline;
+  list-style: none;
+}
+#lists{
+  background-color: turquoise;
+  padding:1em;
+}
+#lista li{
+  float:left;
+  margin:top:1em;
+  width:15%;
+  margin-left: 2em;
+  text-decoration:none;
+  border: 2px dotted navy;
+}
+#sub-redig{
+  display:none;
+}
+#sub-redig li{
+  width:100%;
+}
+#redigera:hover #sub-redig{
+  display:block;
+  position: absolute;
+  list-style:none;
+  left: 15%;
+}
