@@ -12,7 +12,7 @@ $(document).ready(function(){
     });
   });
 
-$("#pag1,#pag1_2,#pag2,#pag2_2_2").click(function(){
+$("#pag1,#pag1_2").click(function(){
   $("#wrapper > div").addClass('hidden');
   $("#1").removeClass('hidden');
   $("li:not(:has(#pag1,#pag1_2))").removeClass('active');
@@ -20,7 +20,7 @@ $("#pag1,#pag1_2,#pag2,#pag2_2_2").click(function(){
 });
 
 
-$("#pag2,#pag2_2,#pag2,#pag2_2_2").click(function(){
+$("#pag2,#pag2_2").click(function(){
   $("#wrapper > div").addClass('hidden');
   $("#2").removeClass('hidden');
   $("li:not(:has(#pag2,#pag2_2,#pag2,#pag2_2_2))").removeClass('active');
@@ -50,6 +50,7 @@ $("#pag5,#pag5_2").click(function(){
   $("li:not(:has(#pag5,#pag5_2))").removeClass('active');
   $("li:has(#pag5,#pag5_2)").addClass('active');
 });
+
 $("#pag6,#pag6_2").click(function(){
   $("#wrapper > div").addClass('hidden');
   $("#6").removeClass('hidden');
