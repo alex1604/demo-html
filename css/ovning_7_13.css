@@ -1,0 +1,48 @@
+body{
+  background-color:gray !important;
+}
+#lista{
+  display:inline;
+  list-style: none;
+}
+#lists{
+  background-color: turquoise;
+  padding:1em;
+  height: 5em;
+}
+#lista li{
+  color: black;
+  float:left;
+  padding:0.5em;
+  width:15%;
+  margin-left: 2em;
+  text-decoration:none;
+  border: 2px dotted navy;
+}
+#sub-redig{
+  display:none;
+  margin-top: 2em;
+}
+#sub-redig li{
+  background-color:white;
+  width:45%;
+
+}
+#redigera:link{
+  color:black;
+  text-decoration:none;
+}
+#redigera:active{
+  color:black;
+  text-decoration:none;
+}
+#redigera:hover #sub-redig{
+  display:block;
+  position: absolute;
+  list-style:none;
+  left: 15%;
+}
+#redigera:visited{
+  color:black;
+  text-decoration:none;
+}
