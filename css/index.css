@@ -21,7 +21,7 @@ a:hover{
 }
 #pages{
   width:100%;
-  
+
   padding: auto;
   margin: auto;
   text-align:center;
@@ -216,7 +216,9 @@ a:hover{
   margin: auto;
   text-align:center;
 }
+
 #portfolio-buttons button{
+
   font-size:1.5em;
   width:10em;
   height:3em;
