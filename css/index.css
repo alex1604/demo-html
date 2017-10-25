@@ -38,7 +38,7 @@ a:hover{
   font-size:1.2em;
 }
 .pagination> li.active > a {
-  background-color:olive;
+  background-color:#999900;
   border:none;
   color:white !important;
 }
@@ -47,7 +47,7 @@ a:hover{
   font-weight: bold;
 }
 .pagination > li > a:hover{
-  background-color:teal !important;
+  background-color:#009999 !important;
   color:white !important;
 }
 #bread-portfolio li{
@@ -97,7 +97,7 @@ a:hover{
   font-family:inconsolata;
 }
 .nav-tabs > li > a{
-  color:olive !important;
+  color:#b3b300 !important;
 }
 #jumbo-about{
   height:15em !important;
@@ -105,11 +105,11 @@ a:hover{
 #lang{
   margin-top:0.7em;
   font-family: inconsolata;
-  color: teal;
+  color: #00b3b3;
   font-size:1.7em;
 }
 #lang:hover{
-  color: olive;
+  color: #b3b300;
 }
 #awesome{
   font-size: 3em;
@@ -199,21 +199,21 @@ a:hover{
   text-align:justify;
 }
 .nav-link:link{
-
-  color: teal !important;
+  font-weight: bold !important;
+  color: #00b3b3;
 }
 .nav-link:visited{
-  color: teal !important;
+  color: #00b3b3 !important;
 
 }
 .nav-link:hover{
   text-decoration: overline !important;
-  color: olive !important;
+  color: #b3b300 !important;
 
 }
 .nav-link:active{
   text-decoration:overline !important;
-  color: teal!important;
+  color: #00b3b3!important;
 }
 
 .btn-group{
@@ -240,10 +240,10 @@ a:hover{
   text-align:center;
 }
 #portfolio-buttons #ex{
-  background-color:teal;
+  background-color:#009999;
 }
 #portfolio-buttons #pro{
-  background-color: olive;
+  background-color: #999900;
 }
 
 #portfolio-buttons button{
