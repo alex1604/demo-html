@@ -257,6 +257,14 @@ a:hover{
   padding-bottom:0.75em;
   text-align:center;
 }
+#portfolio-arrow{
+  font-size:1.5em;
+  padding-right:5em;
+  margin-top:3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .glyphicon-menu-up{
   color: gray;
   font-size:2em;
@@ -281,7 +289,7 @@ a:hover{
   padding-right:8em;
   padding-left:8em;
   padding-top:3em;
-  padding-bottom:3em;
+  padding-bottom:2em;
 }
 #extra-row-2{
   font-family: inconsolata;
@@ -289,7 +297,7 @@ a:hover{
   padding-right:8em;
   padding-left:8em;
   padding-top:3em;
-  padding-bottom:3em;
+  padding-bottom:2em;
 }
 .button a {
     display: block;

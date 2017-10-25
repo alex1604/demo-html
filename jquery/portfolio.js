@@ -5,7 +5,7 @@ $('#myCarousel').carousel({
 $(document).ready(function(){
     $("#wrapper > div").addClass('hidden');
     $("#1").removeClass('hidden');
-    $("li:has(#pag1,#pag1_2,#pag1,#pag1_2_2)").addClass('active');
+    $("li:has(#pag1,#pag1_2)").addClass('active');
   });
 
 $("#pag1,#pag1_2").click(function(){
@@ -19,8 +19,8 @@ $("#pag1,#pag1_2").click(function(){
 $("#pag2,#pag2_2").click(function(){
   $("#wrapper > div").addClass('hidden');
   $("#2").removeClass('hidden');
-  $("li:not(:has(#pag2,#pag2_2,#pag2,#pag2_2_2))").removeClass('active');
-  $("li:has(#pag2,#pag2_2,#pag2,#pag2_2_2)").addClass('active');
+  $("li:not(:has(#pag2,#pag2_2))").removeClass('active');
+  $("li:has(#pag2,#pag2_2)").addClass('active');
 });
 
 
