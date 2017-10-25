@@ -21,12 +21,12 @@ a:hover{
 }
 #pages{
   width:100%;
-
   padding: auto;
   margin: auto;
   text-align:center;
 }
 #bread{
+  font-family: inconsolata;
   padding-right:6em;
   font-size:1.2em;
 }
@@ -34,7 +34,21 @@ a:hover{
   margin-right:0.6em;
 }
 #bread-portfolio{
+  font-family: inconsolata;
   font-size:1.2em;
+}
+.pagination> li.active > a {
+  background-color:olive;
+  border:none;
+  color:white !important;
+}
+.pagination > li > a{
+  color:#424242 !important;
+  font-weight: bold;
+}
+.pagination > li > a:hover{
+  background-color:teal !important;
+  color:white !important;
 }
 #bread-portfolio li{
   margin-right:0.2em;
@@ -78,14 +92,24 @@ a:hover{
 }
 .tab-pane{
   padding:2em;
-  color: #424242 !important;
+  color: #424242;
   text-align:justify;
+  font-family:inconsolata;
+}
+.nav-tabs > li > a{
+  color:olive !important;
 }
 #jumbo-about{
-  height:13em !important;
+  height:15em !important;
 }
 #lang{
   margin-top:0.7em;
+  font-family: inconsolata;
+  color: teal;
+  font-size:1.7em;
+}
+#lang:hover{
+  color: olive;
 }
 #awesome{
   font-size: 3em;
@@ -122,7 +146,8 @@ a:hover{
   color: white;
 }
 .nav-link{
-  color:white;
+  font-family: inconsolata;
+  font-size: 1.2em;
 }
 .fa{
     color:white;
@@ -174,23 +199,21 @@ a:hover{
   text-align:justify;
 }
 .nav-link:link{
-  text-decoration:none;
-  color: white;
+
+  color: teal !important;
 }
 .nav-link:visited{
+  color: teal !important;
 
 }
 .nav-link:hover{
-  text-decoration: none !important;
-  color: white !important;
-  font-size:1.3em;
-}
-.nav-link:active{
-  text-decoration:none;
+  text-decoration: overline !important;
+  color: olive !important;
 
 }
-.active{
-  color: #0489B1;
+.nav-link:active{
+  text-decoration:overline !important;
+  color: teal!important;
 }
 
 .btn-group{
@@ -211,20 +234,27 @@ a:hover{
 }
 #portfolio-buttons{
   width:100%;
-  height:1.5em;
+  height:4.5em;
   padding: auto;
   margin: auto;
   text-align:center;
 }
+#portfolio-buttons #ex{
+  background-color:teal;
+}
+#portfolio-buttons #pro{
+  background-color: olive;
+}
 
 #portfolio-buttons button{
-
+  color:white;
   font-size:1.5em;
   width:10em;
-  height:3em;
+  height:100%;
   margin-right:3em;
   border-radius:10px;
-  padding:auto;
+  padding-top:0.75em;
+  padding-bottom:0.75em;
   text-align:center;
 }
 .glyphicon-menu-up{
@@ -246,6 +276,7 @@ a:hover{
 }
 
 #extra-row-1{
+  font-family: inconsolata;
   background-color:#BDBDBD;
   padding-right:8em;
   padding-left:8em;
@@ -253,6 +284,7 @@ a:hover{
   padding-bottom:3em;
 }
 #extra-row-2{
+  font-family: inconsolata;
   background-color:white;
   padding-right:8em;
   padding-left:8em;
@@ -324,12 +356,6 @@ footer a:active{
     margin:auto;
     padding:2em;
     font-size:1.2em;
-  }
-  .tab-pane{
-    padding:1em;
-    color: #424242 !important;
-    text-align:justify;
-    font-size:1em;
   }
   .navbar li{
     text-align:center;
