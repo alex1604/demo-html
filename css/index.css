@@ -103,13 +103,14 @@ a:hover{
   height:15em !important;
 }
 #lang{
-  margin-top:0.7em;
+  margin-top:0.5em;
+  margin-left: 1em;
   font-family: inconsolata;
-  color: #00b3b3;
+  color: #b3b300;
   font-size:1.7em;
 }
 #lang:hover{
-  color: #b3b300;
+  color: #00b3b3;
 }
 #awesome{
   font-size: 3em;
@@ -170,8 +171,8 @@ a:hover{
   width: 7em;
   margin-left:3em;
 }
-.navbar-brand i{
-  padding-top:0;
+.navbar-brand > i{
+  margin-top:-0.2em;
 }
 
 
@@ -371,12 +372,23 @@ footer a:active{
   }
   .navbar li{
     text-align:center;
-    font-size: 1.3em;
+    font-size: 1em;
     border: 1px solid white !important;
-    padding-top:0.3em;
-    height: 1.7em;
+    padding-top:0.5em;
+    height: 2em;
     width: 6em;
-    margin-left:3em;
+    padding:auto;
+    margin-left:auto;
+  }
+  #lang{
+    margin-left: 0.7em;
+    font-size:1.3em;
+    color: #b3b300;
+  }
+  .collapse > ul{
+    font-size:0.8em;
+    position:relative;
+    margin-top:1.1em;
   }
   #myCarousel{
     margin-top:2em;
@@ -452,11 +464,19 @@ footer a:active{
   #awesome {
     font-size:2.3em;
   }
+  .collapse > ul{
+    font-size:1em;
+    position:relative;
+    margin-top:1em;
+  }
   #statement {
     font-size: 1.7em;
   }
   #welcome-message{
     margin-top:7em;
+  }
+  #lang{
+    color: #b3b300;
   }
   #yo{
     width:30% !important;
@@ -506,6 +526,12 @@ footer a:active{
   #form{
     padding-right:25em;
     padding-left:20em;
+  }
+  .navbar ul {
+    list-style: none;
+    font-size:0.9em;
+    margin-right:1.5em!important;
+    padding:1em;
   }
 }
 
