@@ -348,8 +348,8 @@ footer a:active{
     font-size: 1.5em;
   }
   #welcome-message{
-    margin-top:3em;
-    margin-bottom:2em;
+    margin-top:6em;
+    margin-bottom:0;
   }
   #yo{
     width:70% !important;
@@ -473,7 +473,7 @@ footer a:active{
     font-size: 1.7em;
   }
   #welcome-message{
-    margin-top:7em;
+    margin-top:9em;
   }
   #lang{
     color: #b3b300;
@@ -534,11 +534,13 @@ footer a:active{
     padding:1em;
   }
 }
-
-@media only screen and (max-width: 900px){
+@media only screen and (min-width: 767px){
   #welcome-message{
-    margin-top:6em;
+    margin-top:11em;
   }
+}
+@media only screen and (max-width: 900px){
+
   .navbar li{
     text-align:center;
     font-size: 1.5em;
