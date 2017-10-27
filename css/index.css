@@ -71,10 +71,10 @@ a:hover{
   height:23em;
 }
 .carousel-indicators li {
-    border: 1px solid black !important;
+  border: 1px solid black !important;
 }
 .carousel-indicators .active {
-    background-color: black !important;
+  background-color: black !important;
 }
 #myCarousel .carousel-inner{
   height:100%;
@@ -151,7 +151,7 @@ a:hover{
   font-size: 1.2em;
 }
 .fa{
-    color:white;
+  color:white;
 }
 #burger-menu{
   font-size:3em;
@@ -305,9 +305,9 @@ a:hover{
   padding-bottom:2em;
 }
 .button a {
-    display: block;
-    width: 100%;
-    height:100% !important;
+  display: block;
+  width: 100%;
+  height:100% !important;
 }
 footer{
   background-color:#BDBDBD;
