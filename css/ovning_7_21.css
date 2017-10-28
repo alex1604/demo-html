@@ -1,0 +1,23 @@
+Räkna ut specifitetet av följande selektorer
+
+p{
+  0001
+}
+div div {
+  0002
+}
+:hover{
+  0010
+}
+div > :hover{
+  0011
+}
+.one .two .three{
+  0030
+}
+.one > #something li{
+  0110
+}
+div.classy ul li{
+  0013
+}

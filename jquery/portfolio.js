@@ -77,6 +77,26 @@ $("#pag6,#pag6_2").click(function(){
   $("#1_2").removeClass('hidden');
   $("li:has(#pag1_2_2,#pag1_2_2_2)").addClass('active');
 });
+$("#pag7,#pag7_2").click(function(){
+  $("#wrapper > div").addClass('hidden');
+  $("#7").removeClass('hidden');
+  $("li:not(:has(#pag7,#pag7_2))").removeClass('active');
+  $("li:has(#pag7,#pag7_2)").addClass('active');
+
+  $("#wrapper2 > div").addClass('hidden');
+  $("#1_2").removeClass('hidden');
+  $("li:has(#pag1_2_2,#pag1_2_2_2)").addClass('active');
+});
+$("#pag8,#pag8_2").click(function(){
+  $("#wrapper > div").addClass('hidden');
+  $("#8").removeClass('hidden');
+  $("li:not(:has(#pag8,#pag8_2))").removeClass('active');
+  $("li:has(#pag8,#pag8_2)").addClass('active');
+
+  $("#wrapper2 > div").addClass('hidden');
+  $("#1_2").removeClass('hidden');
+  $("li:has(#pag1_2_2,#pag1_2_2_2)").addClass('active');
+});
 
 $(document).ready(function(){
     $("#wrapper2 > div").addClass('hidden');
@@ -148,6 +168,28 @@ $("#pag6_2_2,#pag6_2_2_2").click(function(){
   $("#6_2").removeClass('hidden');
   $("li:not(:has(#pag6_2_2,#pag6_2_2_2))").removeClass('active');
   $("li:has(#pag6_2_2,#pag6_2_2_2)").addClass('active');
+
+  $("#wrapper > div").addClass('hidden');
+  $("#1").removeClass('hidden');
+  $("li:has(#pag1,#pag1_2)").addClass('active');
+});
+
+$("#pag7_2_2,#pag7_2_2_2").click(function(){
+  $("#wrapper2 > div").addClass('hidden');
+  $("#7_2").removeClass('hidden');
+  $("li:not(:has(#pag7_2_2,#pag7_2_2_2))").removeClass('active');
+  $("li:has(#pag7_2_2,#pag7_2_2_2)").addClass('active');
+
+  $("#wrapper > div").addClass('hidden');
+  $("#1").removeClass('hidden');
+  $("li:has(#pag1,#pag1_2)").addClass('active');
+});
+
+$("#pag8_2_2,#pag8_2_2_2").click(function(){
+  $("#wrapper2 > div").addClass('hidden');
+  $("#8_2").removeClass('hidden');
+  $("li:not(:has(#pag8_2_2,#pag8_2_2_2))").removeClass('active');
+  $("li:has(#pag8_2_2,#pag8_2_2_2)").addClass('active');
 
   $("#wrapper > div").addClass('hidden');
   $("#1").removeClass('hidden');

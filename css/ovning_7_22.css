@@ -1,0 +1,26 @@
+nav{
+  background-color: teal;
+  height:6em;
+  border-radius:10px;
+  padding:1em;
+}
+nav span{
+  float:left;
+  color:white;
+  padding-top:0.2em;
+  margin-left:0.7em;
+}
+ul{
+  list-style:none;
+
+}
+ul li{
+    float:right;
+    margin-right:2em;
+    font-family: inconsolata;
+    font-size:1.5em;
+    color:white;
+    border:3px solid olive;
+    padding:0.5em;
+    border-radius:20px;
+}

@@ -1,0 +1,24 @@
+/* Skriv CSS-selektorer som väljer ut…
+alla tabellceller som är i andra raden i sin tabell
+alla list items som finns i ett nav-element
+alla element i en ordnad lista
+alla div-element som kommer efter ett h1-element
+alla bilder som finns i ett länk- eller i ett button-element */
+
+
+table > td + td{
+
+}
+
+nav > li{
+
+}
+ol{
+
+}
+div + h1{
+
+}
+a > img, button > img{
+  
+}
