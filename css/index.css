@@ -53,8 +53,14 @@ a:hover{
 #bread-portfolio li{
   margin-right:0.2em;
 }
-#up, #down{
+#up{
   margin-bottom:1em;
+  margin-left:0 auto;
+  padding-left:0 auto;
+}
+#down{
+  margin-bottom:0.2em;
+  margin-top:0em;
   margin-left:0 auto;
   padding-left:0 auto;
 }
@@ -235,7 +241,7 @@ a:hover{
   text-align:center;
 }
 #bread-top{
-  padding-top:3em;
+  padding-top:1em;
   padding-right:8em;
 }
 #portfolio-buttons{
@@ -243,6 +249,7 @@ a:hover{
   height:4.5em;
   padding: auto;
   margin: auto;
+  margin-bottom:2em;
   text-align:center;
 }
 #portfolio-buttons #ex{
